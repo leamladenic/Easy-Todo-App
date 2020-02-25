@@ -10,10 +10,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
-  margin: auto;
 }
-
+main {
+  max-width: 500px;
+  margin: 0px auto;
+}
 .addForm {
   background-color: blue;
 }
