@@ -1,0 +1,19 @@
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #f37505,
+    #f39233,
+    #f3ab57,
+    #f3c27d,
+    #f5d7a5
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.addForm {
+  background-color: blue;
+}
