@@ -15,15 +15,20 @@ main {
   max-width: 500px;
   margin: 0px auto;
 }
-.addForm {
-  background-color: blue;
-}
 
+#buttonSumbit:focus {
+  outline: 0;
+  border: none;
+}
+#buttonSumbit:active {
+  outline: none;
+  border: none;
+}
 #buttonSumbit {
-  background-color: #ffc7ab; /* Green */
+  background-color: #ffc7ab;
   border: none;
   color: white;
-  padding: 11px 27px;
+
   text-align: center;
   text-decoration: none;
   display: inline-block;

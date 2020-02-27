@@ -20,7 +20,7 @@
         >
           {% csrf_token %}
 
-          <input id ="buttonSumbit" type="submit" value="Delete" />
+          <input id ="buttonSumbit" type="submit" value="Delete" style="border-radius: 30px;padding: 8px 22px;"/>
         </form>
       </li>
       {% endfor %}
@@ -28,8 +28,18 @@
 
     <form action="/addTodo/" method="post" className="addForm">
       {% csrf_token %}
-      <input type="text" name="content" />
-      <input type="submit" value="Add new" />
+      <input id="textInput" type="text" name="content" style="border: 2px solid #ffc8a2; border-radius: 20px; padding: 7 40;"/>
+      <input id="buttonInput" type="submit" value="Add new" style="background-color: #ff8533; 
+      border: none;
+      color: white;
+    
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 5px;
+      padding: 10 10;
+      cursor: pointer;
+      border-radius: 20px;"/>
     </form>
   </main>
 </body>
